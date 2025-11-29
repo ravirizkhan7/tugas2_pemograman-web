@@ -1,0 +1,16 @@
+@import "tailwindcss";
+body {
+  @apply bg-gray-100 text-gray-800;
+}
+.input {
+  @apply w-full p-2 border rounded;
+}
+.table-head {
+  @apply bg-gray-100 text-left p-2;
+}
+.table-cell {
+  @apply p-2 border-t;
+}
+.card {
+  @apply bg-white p-4 rounded shadow;
+}
